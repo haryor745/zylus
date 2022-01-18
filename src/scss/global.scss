@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #313131;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.btn {
+  padding: 15px 20px;
+  background: #fcb002;
+  border-radius: 5px;
+  display: inline-block;
+}
+.cta {
+  display: flex;
+  align-items: center;
+  color: #fcb002;
+  svg {
+    fill: #fcb002;
+  }
+}
+img {
+  max-width: 100%;
+}
